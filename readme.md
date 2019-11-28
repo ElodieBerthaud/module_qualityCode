@@ -1,0 +1,1 @@
+readme for TP project Java QualityCode
