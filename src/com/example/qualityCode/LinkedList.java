@@ -2,7 +2,7 @@ package com.example.qualityCode;
 import com.example.qualityCode.Cellule;
 
 public class LinkedList<T> {
-    Cellule<T>      node;
+    private Cellule<T>      node;
 
     LinkedList(Cellule<T> node) {
         this.node = node;
