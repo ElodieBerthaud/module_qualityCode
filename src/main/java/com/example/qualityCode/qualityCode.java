@@ -10,6 +10,7 @@ public class qualityCode {
         Cellule ginette = new Cellule("Ginette");
         Cellule michel = new Cellule("Michel");
         Cellule jean = new Cellule("Jean");
+        Cellule toto = new Cellule("toto");
 
         LinkedList<String> queue = new LinkedList<String>(gerard);
 
@@ -17,16 +18,19 @@ public class qualityCode {
         queue.pushElementToFrontList(michel);
 
         queue.pushElementToPosition(jean, 1);
-
         queue.ShowListContent();
 
-        System.out.print("\n");
-
-        queue.deleteElementFromPosition(2);
-
-        //queue.deleteElement(jean);
-
+        queue.pushElementToPosition(toto, 1);
         queue.ShowListContent();
+
+
+//        System.out.print("\n");
+//
+//        queue.deleteElementFromPosition(2);
+//
+//        //queue.deleteElement(jean);
+//
+//        queue.ShowListContent();
 
     }
 
